@@ -1,0 +1,106 @@
+nav {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#h1 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+    letter-spacing: 1.5px;
+
+}
+
+#span1,
+#span2 {
+    font-size: 3rem;
+}
+
+#to {
+    font-size: 2rem;
+}
+
+label {
+    font-size: 1.5 rem;
+}
+
+img {
+    height: 300px;
+    border: 3px black solid;
+}
+
+#dot1 {
+    color: green;
+}
+
+#dot2 {
+    color: red;
+}
+
+#ul {
+    text-align: center;
+    padding: none;
+}
+
+#person1 {
+    background-color: rgb(0, 106, 255);
+    color: white;
+    padding: 5px 8px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#person1:active {
+    background-color: white;
+    color: rgb(0, 106, 255);
+}
+
+#person2 {
+    background-color: rgb(255, 255, 12);
+    color: black;
+    padding: 5px 8px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#reset {
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#reset:active {
+    background-color: white;
+    color: red;
+}
+
+#person2:active {
+    background-color: black;
+    color: rgb(255, 255, 12);
+}
+
+#submit {
+    padding: 2px 10px;
+    border-radius: 15px;
+}
+
+#submit:active {
+    color: white;
+    background-color: black;
+}
+
+.size {
+    font-size: 5rem;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}

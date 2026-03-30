@@ -1,0 +1,1 @@
+A Clean and Simple Scoreboard Counter using only HTML, CSS and JS.
