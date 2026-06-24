@@ -18,11 +18,17 @@
             <span id="span1">0</span> <span id="to">-</span> <span id="span2">0</span> <br>
         </div>
 
-        <form action="" id="fill"><label for="pick" id="write">PICK THE HIGH SCORE:</label> <br>
-            <input type="number" id="pick" name="some">
-            <button id="submit">Submit</button>
-            <br>
-            <br>
+        <form action="" id="fill">
+            <label for="gameSelect" id="write">SELECT GAME OR CUSTOM SCORE:</label> <br>
+            <select id="gameSelect" name="game">
+                <option value="custom">Custom Win Score</option>
+                <option value="badminton">Badminton (21)</option>
+                <option value="tt">Table Tennis (11)</option>
+                <option value="volleyball">Volleyball (25)</option>
+            </select>
+            <input type="number" id="pick" name="some" placeholder="Custom...">
+            <button id="submit">Set</button>
+            <br><br>
         </form>
         <button id="person1">+1 PLAYER1</button> <button id="person2">+1 PLAYER2</button>
         <button id="reset"> RESET</button>

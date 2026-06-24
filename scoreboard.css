@@ -1,6 +1,5 @@
 nav {
     text-align: center;
-    margin-top: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -103,4 +102,12 @@ img {
 
 .red {
     color: red;
+}
+
+#gameSelect {
+    padding: 3px 5px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-right: 5px;
 }
